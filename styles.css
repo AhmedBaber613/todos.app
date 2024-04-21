@@ -1,0 +1,45 @@
+body {
+  background: #352f5b;
+}
+
+.container {
+  max-width: 650px;
+}
+
+input[type=text],
+input[type=text]:focus{
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+.todos li {
+  background: #423a6f;
+  font-size: 20px;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.add {
+  font-size: 20px;
+}
+
+.search {
+  padding: 24px;
+  font-size: 22px;
+}
+
+.new {
+  padding: 24px;
+  font-size: 22px;
+}
+
+.h {
+  font-size: 55px;
+}
+
+.filtered {
+  display: none !important;
+}
